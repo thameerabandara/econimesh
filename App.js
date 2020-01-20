@@ -4,25 +4,28 @@ import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom
 import  Icon from 'react-native-vector-icons/Ionicons';
 
 
+
+import Slideshows from './Sliders/SlideShows';
+
 class HomeScreen extends Component{
   render(){
 
     return( 
           <View style = {styles.container}>
-            <Text>HomeScreen</Text>
+            <Slideshows/>   
           </View>
     );
   }
-}
+} 
 
 
 
-class ExamScreen extends Component {
+class ExamScreen extends Component {    
   render(){
 
     return( 
           <View style = {styles.container}>
-            <Text> ExamScreen TabBarNavigator</Text>
+            <Text> ExamScree TabBarNavigator</Text>
           </View>
     );
   }
@@ -53,28 +56,32 @@ class SettingScreen extends Component {
 }
 
 export default createMaterialBottomTabNavigator({
-  Home:{screen:HomeScreen,
-      navigationOptions:{
-      TabBarLabel:'Home',
+  Home:{
+    screen:HomeScreen,
+    navigationOptions:{
+      tabBarLabel:'Home',
       tabBarIcon: ({tintColor}) =>(<Icon name='ios-home' color={tintColor}size={26}/>) 
       }},
 
-      Exam:{screen:ExamScreen,
+  Exam :{
+        screen:ExamScreen,
         navigationOptions:{
-          TabBarLabel:'Quick', 
+          tabBarLabel:'Quick Exam', 
             tabBarIcon: ({tintColor}) =>(<Icon name='ios-paper' color={tintColor}size={26}/>) 
               }},
               
               
-      Paper:{screen:PaperScreen,
+  Papers:{
+        screen:PaperScreen,
         navigationOptions:{
-          TabBarLabel:'PassPapers',
+          tabBarLabel:'Pass Papers',
             tabBarIcon: ({tintColor}) =>(<Icon name='md-paper' color={tintColor}size={26}/>) 
                   }}, 
 
-  Setting:{screen:SettingScreen,
-    navigationOptions:{
-      TabBarLabel:'Setting',
+  Setting:{
+         screen:SettingScreen,
+         navigationOptions:{
+         tabBarLabel:'Setting',
       tabBarIcon: ({tintColor}) =>(<Icon name='ios-settings' color={tintColor}size={26}/>) 
       }},
 
@@ -92,6 +99,7 @@ const styles = StyleSheet.create({
      flex:1,
      justifyContent:'center',
      alignItems:'center'
-   }
-   
+   }   
 });  
+
+
