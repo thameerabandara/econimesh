@@ -61,14 +61,14 @@ export default createMaterialBottomTabNavigator({
 
       Exam:{screen:ExamScreen,
         navigationOptions:{
-          TabBarLabel:'Quick Exam', 
+          TabBarLabel:'Quick', 
             tabBarIcon: ({tintColor}) =>(<Icon name='ios-paper' color={tintColor}size={26}/>) 
               }},
               
               
       Paper:{screen:PaperScreen,
         navigationOptions:{
-          TabBarLabel:'Pass Papers',
+          TabBarLabel:'PassPapers',
             tabBarIcon: ({tintColor}) =>(<Icon name='md-paper' color={tintColor}size={26}/>) 
                   }}, 
 
