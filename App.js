@@ -5,15 +5,18 @@ import  Icon from 'react-native-vector-icons/Ionicons';
 
 
 
+
+
 import Slideshows from './Sliders/SlideShows';
+import QuizScreen from './Quiz/QuizScreen';
 
 class HomeScreen extends Component{
   render(){
 
     return( 
-          <View style = {styles.container}>
-            <Slideshows/>   
-          </View>
+      <View style = {styles.container}>
+      <Slideshows/>   
+    </View>
     );
   }
 } 
@@ -24,9 +27,10 @@ class ExamScreen extends Component {
   render(){
 
     return( 
-          <View style = {styles.container}>
-            <Text> ExamScree TabBarNavigator</Text>
-          </View>
+      <View style = {styles.container}>
+        <QuizScreen/>
+       </View>
+          
     );
   }
 }
@@ -37,7 +41,7 @@ class PaperScreen extends Component {
 
     return( 
           <View style = {styles.container}>
-            <Text>Paper TabBarNavigator</Text>
+            <Text style={{fontSize:15, fontWeight:'bold', color:'blue'}}>අපොස උසස්පෙළ නව විෂය නිර්දේශය </Text>
           </View>
     );
   }
@@ -98,7 +102,7 @@ const styles = StyleSheet.create({
    container:{
      flex:1,
      justifyContent:'center',
-     alignItems:'center'
+     alignItems:'center',
    }   
 });  
 

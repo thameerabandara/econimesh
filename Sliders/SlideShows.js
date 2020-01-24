@@ -12,32 +12,32 @@ export default class Slideshows extends Component {
     this.state = {
       position: 1,
       interval: null,
-      dataSource: [
+      dataSource: [       
         {
           // title: 'economics',
-          // caption: 'sign now Economics Page ', 
-          url: 'https://source.unsplash.com/1024x768/?srilanka"',     
+          // caption: 'sign now Economics Page ',  
+          url: "https://source.unsplash.com/1024x768/?Economics",     
         }, {
           // title: 'education',
           // caption: 'sign now education Page',
-          url: 'https://source.unsplash.com/1024x768/?galle dutch fort',
+          url: "https://source.unsplash.com/1024x768/?education",
         }, {
           // title: 'currency',
           // caption: 'sign now currency Page',
-          url: 'https://source.unsplash.com/1024x768/?Sigiriya',
+          url: "https://source.unsplash.com/1024x768/?currency",
         },
         {
           // title: 'Accounting',
           // caption: 'sign now Accounting Page',
-          url: 'https://source.unsplash.com/1024x768/?nine_arch_bridge"',
+          url: "https://source.unsplash.com/1024x768/?Accounting",
         }, {
           // title: 'business',
           // caption: 'sign now business Page',
-          url: 'https://source.unsplash.com/1024x768/?galleface',
+          url: "https://source.unsplash.com/1024x768/?business",
         }, {
           // title: 'world news',
           // caption: 'sign now world news Page',
-          url: 'https://source.unsplash.com/1024x768/?srilanka',
+          url: "https://source.unsplash.com/1024x768/?",
         },
       ],
     };
