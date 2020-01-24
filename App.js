@@ -24,12 +24,16 @@ class HomeScreen extends Component{
 
 
 class ExamScreen extends Component {    
-  render(){
+  render(){     
 
     return( 
       <View style = {styles.container}>
         <QuizScreen/>
        </View>
+
+    //   <View style = {styles.container}>
+    //   <Text style={{fontSize:15, fontWeight:'bold', color:'blue'}}>අපොස උසස්පෙළ නව විෂය නිර්දේශය </Text>
+    // </View>
           
     );
   }
@@ -52,9 +56,9 @@ class SettingScreen extends Component {
   render(){
 
     return( 
-          <View style = {styles.container}>
-            <Text>Setting TabBarNavigator</Text>
-          </View>
+      <View style = {styles.container}>
+      <Text style={{fontSize:15, fontWeight:'bold', color:'blue'}}>අපොස උසස්පෙළ නව විෂය නිර්දේශය </Text>
+    </View>
     );
   }
 }
@@ -103,6 +107,7 @@ const styles = StyleSheet.create({
      flex:1,
      justifyContent:'center',
      alignItems:'center',
+    backgroundColor: "#fff",
    }   
 });  
 

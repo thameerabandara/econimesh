@@ -5,7 +5,7 @@ import Slideshow from 'react-native-image-slider-show';
 const DEVICE_WIDTH = Dimensions.get('window').width 
 
 
-export default class Slideshows extends Component {
+export default class Slideshows extends Component {   
   constructor(props) {
     super(props);
  
@@ -16,28 +16,28 @@ export default class Slideshows extends Component {
         {
           // title: 'economics',
           // caption: 'sign now Economics Page ',  
-          url: "https://source.unsplash.com/1024x768/?Economics",     
+          url: "https://source.unsplash.com/1024x768/?react-native",     
         }, {
           // title: 'education',
           // caption: 'sign now education Page',
-          url: "https://source.unsplash.com/1024x768/?education",
+          url: "https://source.unsplash.com/1024x768/?reactJs",
         }, {
           // title: 'currency',
           // caption: 'sign now currency Page',
-          url: "https://source.unsplash.com/1024x768/?currency",
+          url: "https://source.unsplash.com/1024x768/?react-native",
         },
         {
           // title: 'Accounting',
           // caption: 'sign now Accounting Page',
-          url: "https://source.unsplash.com/1024x768/?Accounting",
+          url: "https://source.unsplash.com/1024x768/?Xml",
         }, {
           // title: 'business',
           // caption: 'sign now business Page',
-          url: "https://source.unsplash.com/1024x768/?business",
+          url: "https://source.unsplash.com/1024x768/?reactJs",
         }, {
           // title: 'world news',
           // caption: 'sign now world news Page',
-          url: "https://source.unsplash.com/1024x768/?",
+          url: "https://source.unsplash.com/1024x768/?sql",   
         },
       ],
     };

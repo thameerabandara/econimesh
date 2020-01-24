@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { CheckBox } from "react-native-elements";
 import { View, StyleSheet, Text, Button,TouchableWithoutFeedback,Alert } from "react-native";
-// import { RadioButtons } from 'react-native-radio-buttons';
+ //import { RadioButtons } from 'react-native-radio-buttons';
 //import Cochin from '../assets/font/Cochin';
 import RadioButton from "radio-button-react-native";
 class QuizScreen extends Component {
